@@ -1,0 +1,64 @@
+/* style html */
+html{
+    /* jenis huruf */
+    font-family: "poppins";
+
+    /* warna huruf */
+    color: #222220;
+}
+
+/* class nav-judul */
+nav .nav-judul{
+    /* ukuran huruf */
+    font-size: 24px;
+
+    /* ketebalan huruf */
+    font-weight: 600;
+}
+
+/* class nav-menu */
+nav .nav-menu{
+    /* buat menu jadi 1 baris */
+    display: flex;
+
+    /* jarak menu */
+    align-items: center;
+    gap: 16px;
+}
+
+/* class nav-menu */
+/* style link */
+nav .nav-menu a {
+    /* hilangkan garis bawah di link */
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/* class tombol-chat */
+.tombol-chat{
+    /* warna background jadi transparan */
+    background-color: transparent;
+
+    color: #222220;
+
+    /* garis tepi */
+    border: 1px solid #282826;
+
+    /* merubah kursor panah jadi tangan */
+    cursor: pointer;
+
+    /* jarak kanan kiri atas bawah */
+    padding: 12px 20px;
+
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* style nav */
+nav{
+    display: flex;
+    align-items: center;
+
+    /* jarak */
+    justify-content: space-between;
+}
