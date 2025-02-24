@@ -61,4 +61,7 @@ nav{
 
     /* jarak */
     justify-content: space-between;
+
+    padding: 16px 32px;
+    border-bottom: 1px solid #333232;
 }
